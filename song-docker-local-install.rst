@@ -12,8 +12,8 @@ Introduction
 ========================
 
 .. warning::
-This page is aimed to described the small adjustmenet, a new user has to apply in a local Vm to install SONG.
-We Recommad to apply the instructions on `SONG for Docker https://github.com/overture-stack/SONG/tree/develop/song-docker`
+This page is aimed to describe the small adjustments a new user has to apply in a local Vm to install SONG.
+We Recommend to apply the instructions on `SONG for Docker https://github.com/overture-stack/SONG/tree/develop/song-docker`
 
 
 Adjustments
