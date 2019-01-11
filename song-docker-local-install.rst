@@ -27,6 +27,7 @@ Adjustments
     
   
 *  Minio service ``(distributed object storage server)``:
+
    A warning message on minio service may appears asking for version update.
    on ``docker-compose.yml`` file change the build image name.
    
@@ -36,6 +37,7 @@ Adjustments
      image: minio/minio:RELEASE.2019-01-10T00-21-20Z
      
 *  Auth service ``(SimpleAuth)``: 
+
 In this docker config the ``(SimpleAuth)`` is applying as a lightweight oAuth server provider. 
 and to correct the ``(auth_data)`` issue you may see on ``docker-compose up``:
   1. On auth folder, create an empty ``auth_data`` sub folder.
@@ -52,6 +54,7 @@ and to correct the ``(auth_data)`` issue you may see on ``docker-compose up``:
     ADD auth_data $AUTH_DATA
      
 * Run the build, and start all services.
+
 You may have probably need to do a `!!! CLEAN UP` of your docker images and containers created at first try.
 
 ``DONT USE If you want to clean cache and intermediates images, containers individually``
