@@ -1,3 +1,3 @@
-# Chu research    
+# CHURSJ Research    
 
 * ___  Technical-Wiki ___
